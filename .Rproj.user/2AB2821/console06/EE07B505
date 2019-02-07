@@ -1,0 +1,257 @@
+[0m[0K      2 [main] id (19828) C:\cygwin64\bin\id.exe: *** fatal error - cygheap bas[0Ke[?25l
+ mismatch detected - 0x1802FF408/0x180304408.[0K
+This problem is probably due to using incompatible versions of the cygwin DLL.[0K
+Search for cygwin1.dll using the Windows Start->Find/Search facility[0K
+and delete all but the most recent version.  The most recent version *should*[0K
+reside in x:\cygwin\bin, where 'x' is the drive on which you have[0K
+installed the cygwin distribution.  Rebooting is also suggested if you[0K
+are unable to find another cygwin DLL.[0K
+      2 [main] getent (19092) C:\cygwin64\bin\getent.exe: *** fatal error - cyg[0Kh
+eap base mismatch detected - 0x1802FF408/0x180304408.[0K
+This problem is probably due to using incompatible versions of the cygwin DLL.[0K
+Search for cygwin1.dll using the Windows Start->Find/Search facility[0K
+and delete all but the most recent version.  The most recent version *should*[0K
+reside in x:\cygwin\bin, where 'x' is the drive on which you have[0K
+installed the cygwin distribution.  Rebooting is also suggested if you[0K
+are unable to find another cygwin DLL.[0K
+[0K[?25h[?25l[16A      2 [main] id (19828) C:\cygwin64\bin\id.e[0Kx
+e: *** fatal error - cygheap base mismatch det[0Ke
+cted - 0x1802FF408/0x180304408.[0K
+This problem is probably due to using incompat[0Ki
+ble versions of the cygwin DLL.[0K
+Search for cygwin1.dll using the Windows Start[0K-
+>Find/Search facility[0K
+and delete all but the most recent version.  T[0Kh
+e most recent version *should*[0K
+reside in x:\cygwin\bin, where 'x' is the driv[0Ke
+ on which you have[0K
+installed the cygwin distribution.  Rebooting [0Ki
+s also suggested if you[0K
+are unable to find another cygwin DLL.[0K
+      2 [main] getent (19092) C:\cygwin64\bin\[0Kg
+etent.exe: *** fatal error - cygheap base mism[0Ka
+tch detected - 0x1802FF408/0x180304408.[0K
+This problem is probably due to using incompat[0Ki
+ble versions of the cygwin DLL.[0K
+Search for cygwin1.dll using the Windows Start[0K-
+>Find/Search facility[0K
+and delete all but the most recent version.  T[0Kh
+e most recent version *should*[0K
+reside in x:\cygwin\bin, where 'x' is the driv[0Ke
+ on which you have[0K
+installed the cygwin distribution.  Rebooting [0Ki
+s also suggested if you[0K
+are unable to find another cygwin DLL.[0K
+[0K[?25h]0;:/c/Users/Biljana/Nextcloud/Modified_Reproducible_research/Modified_Reproducible_research/Test[?25l
+[0;32mBiljana@DESKTOP-FHVUF74 [0;35m [0;33m~/Nextcloud/Modified_[0KR
+eproducible_research/Modified_Reproducible_res[0Ke
+arch/Test[0m[0K
+$[0K[3G[?25h[?25l$ R[0K[?25hs[0Kc[0Kr[0Ki[0Kp[0Kt[0K[11G[?25l$ Rscript O[0K[?25h2[0K_[0Kp[0Kl[0Ko[0Kt[0K.[0KR[0K[?25l
+[0K[?25hLoading required package: methods[0K[?25l
+[0K[?25hWarning message:[0K[?25l
+package 'colorspace' was built under R version[0K
+3.4.4[0K
+[0K[?25hWarning message:[0K[?25l
+package 'stringi' was built under R version 3.[0K4
+.4[0K
+[0K[?25h-- ?[1mAttaching packages?[22m ---- tidyverse [0K1[?25l
+.2.1 --[0K
+?[0K[1G[?25h?[32mv?[39m ?[34mggplot2?[39m 3.1.0     ?[32mv[0K?[?25l
+[39m ?[34mpurrr  ?[39m 0.2.5[0K
+?[32mv?[39m ?[34mtibble ?[39m 1.4.2     ?[32mv[0K?
+[39m ?[34mdplyr  ?[39m 0.7.8[0K
+?[32mv?[39m ?[34mtidyr  ?[39m 0.8.1     ?[32mv[0K?
+[39m ?[34mstringr?[39m 1.3.1[0K
+?[32mv?[39m ?[34mreadr  ?[39m 1.1.1     ?[32mv[0K?
+[39m ?[34mforcats?[39m 0.2.0[0K
+[0K[?25h[?25l-- ?[1mConflicts?[22m -------[0K[28G[?25h[?25l-- ?[1mConflicts?[22m ------- tidyverse_confli[0Kc
+ts() --[0K
+?[31mx?[39m ?[34mdplyr?[39m::?[32mfilter()?[39[0Km
+ masks ?[34mstats?[39m::filter()[0K
+?[31mx?[39m ?[34mdplyr?[39m::?[32mlag()?[39m[0K
+ masks ?[34mstats?[39m::lag()[0K
+Warning messages:[0K
+1: package 'tidyverse' was built under R versi[0Ko
+n 3.4.4[0K
+2: package 'ggplot2' was built under R version[0K
+3.4.4[0K
+3: package 'tibble' was[0K[22G[?25h[?25l3: package 'tibble' was built under R version [0K3
+.4.4[0K
+4: package 'tidyr' was built under R version 3[0K.
+4.4[0K
+5: package 'purrr' was built under R version 3[0K.
+4.4[0K
+6: package 'dplyr' was built under R version 3[0K.
+4.4[0K
+7: package 'stringr' was built under R version[0K
+3.4.4[0K
+[0K[?25hParsed with column specification:[0K[?25l
+cols([0K
+  X1 = col_integer(),[0K
+  Season = col_character(),[0K
+  Depth_m = col_integer(),[0K
+  O2_uM = col_double(),[0K
+  Add_data = col_logical()[0K
+)[0K
+Warning message:[0K
+Missing column names filled in: 'X1' [1][0K
+[0K[?25hSaving 7 x 7 in image[0K[?25l
+[0K[?25h[?25l
+[0;32mBiljana@DESKTOP-FHVUF74 [0;35m [0;33m~/Nextcloud/Modified_[0KR
+eproducible_research/Modified_Reproducible_res[0Ke
+arch/Test[0m[0K
+$[0K[3G[?25h[?25l$ Rscript O2_plot.R[0K[?25h[?25l
+[0K[?25hLoading required package: methods[0K[?25l
+[0K[?25hWarning message:[0K[?25l
+package 'colorspace' was built under R version[0K
+3.4.4[0K
+[0K[?25hWarning message:[0K[?25l
+package 'stringi' was built under R version 3.[0K4
+.4[0K
+[0K[?25h-- ?[1mAttaching packages?[22m ---- tidyverse [0K1[?25l
+.2.1 --[0K
+?[32mv?[39m ?[34mggplot2?[39m 3.1.0     ?[32mv[0K?
+[39m ?[34mpurrr  ?[39m 0.2.5[0K
+?[32mv?[39m ?[34mtibble ?[39m 1.4.2[0K[35G[?25h[?25l?[32mv?[39m ?[34mtibble ?[39m 1.4.2     ?[32mv[0K?
+[39m ?[34mdplyr  ?[39m 0.7.8[0K
+?[32mv?[39m ?[34mtidyr  ?[39m 0.8.1     ?[32mv[0K?
+[39m ?[34mstringr?[39m 1.3.1[0K
+?[32mv?[39m ?[34mreadr  ?[39m 1.1.1     ?[32mv[0K?
+[39m ?[34mforcats?[39m 0.2.0[0K
+[0K[?25h-- ?[1mConflicts?[22m ------- tidyverse_confli[0Kc[?25l
+ts() --[0K
+?[31mx?[39m ?[34mdplyr?[39m::?[32mfilter()?[39[0Km
+ masks ?[34mstats?[39m::filter()[0K
+?[31mx?[39m ?[34mdplyr?[39m::?[32mlag()?[39m[0K
+ masks ?[34mstats?[39m::lag()[0K
+Warning messages:[0K
+1: package 'tidyverse' was built under R versi[0Ko
+n 3.4.4[0K
+2: package 'ggplot2' was built under R[0K[37G[?25h[?25l2: package 'ggplot2' was built under R version[0K
+3.4.4[0K
+3: package 'tibble' was built under R version [0K3
+.4.4[0K
+4: package 'tidyr' was built under R version 3[0K.
+4.4[0K
+5: package 'purrr' was built under R version 3[0K.
+4.4[0K
+6: package 'dplyr' was built under R version 3[0K.
+4.4[0K
+7: package 'stringr' was built under R version[0K
+3.4.4[0K
+[0K[?25hParsed with column specification:[0K[?25l
+cols([0K
+  X1 = col_integer(),[0K
+  Season = col_character(),[0K
+  Depth_m = col_integer(),[0K
+  O2_uM = col_double(),[0K
+  Add_data = col_logical()[0K
+)[0K
+War[0K[2G[?25h[?25lWarning message:[0K
+Missing column names filled in: 'X1' [1][0K
+[0K[?25hSaving 7 x 7 in image[0K[?25l
+[0K[?25h[?25l
+[0;32mBiljana@DESKTOP-FHVUF74 [0;35m [0;33m~/Nextcloud/Modified_[0KR
+eproducible_research/Modified_Reproducible_res[0Ke
+arch/Test[0m[0K
+$[0K[3G[?25h[?25l$ Rscript O2_plot.R[0K[?25h[?25l
+[0K[?25hLoading required package: methods[0K[?25l
+[0K[?25hWarning message:[0K[?25l
+package 'colorspace' was built under R version[0K
+3.4.4[0K
+[0K[?25h[?25lWarning messa[0K[12G[?25h[?25lWarning message:[0K
+package 'stringi' was built under R version 3.[0K4
+.4[0K
+[0K[?25h-- ?[1mAttaching packages?[22m ---- tidyverse [0K1[?25l
+.2.1 --[0K
+?[32mv?[39m ?[34mggplot2?[39m 3.1.0     ?[32mv[0K?
+[39m ?[34mp[0K[9G[?25h[?25l[39m ?[34mpurrr  ?[39m 0.2.5[0K
+?[32mv?[39m ?[34mtibble ?[39m 1.4.2     ?[32mv[0K?
+[39m ?[34mdplyr  ?[39m 0.7.8[0K
+?[32mv?[39m ?[34mtidyr  ?[39m 0.8.1     ?[32mv[0K?
+[39m ?[34mstringr?[39m 1.3.1[0K
+?[32mv?[39m ?[34mreadr  ?[39m 1.1.1     ?[32mv[0K?
+[39m ?[34mforcats?[39m 0.2.0[0K
+[0K[?25h[?25l-- ?[1mConflicts?[22m -----[0K[25G[?25h[?25l-- ?[1mConflicts?[22m ------- tidyverse_confli[0Kc
+ts() --[0K
+?[31mx?[39m ?[34mdplyr?[39m::?[32mfilter()?[39[0Km
+ masks ?[34mstats?[39m::filter()[0K
+[0K[?25h?[31mx?[39m ?[34mdplyr?[39m::?[32mlag()?[39m[0K[?25l
+ masks ?[34mstats?[39m::lag()[0K
+Warning messages:[0K
+1: package 'tidyverse' was bui[0K[?25hlt under R versi[0Ko[?25l
+n 3.4.4[0K
+2: package 'ggplot2' was built under R version[0K
+3.4.4[0K
+3: package 'tibble' was built under R version [0K3
+.4.4[0K
+4: pa[0K[4G[?25h[?25l4: package 'tidyr' was built under R version 3[0K.
+4.4[0K
+5: package 'purrr' was built under R version 3[0K.
+4.4[0K
+6: package 'dplyr' was built under R version 3[0K.
+4.4[0K
+7: pa[0K[?25hckage 'stringr' was built under R version[0K[?25l
+3.4.4[0K
+[0K[?25hParsed with column specification:[0K[?25l
+cols([0K
+  X1 = col_integer(),[0K
+  Season = col_character(),[0K
+  Depth_m = col_integer(),[0K
+  O2_uM = col_double(),[0K
+  Add_data = col_logical()[0K
+)[0K
+Warning message:[0K
+Missing column names filled in: 'X1' [1][0K
+[0K[?25hSaving 7 x 7 in image[0K[?25l
+[0K[?25h[?25l
+[0;32mBiljana@DESKTOP-FHVUF74 [0;35m [0;33m~/Nextcloud/Modified_[0KR[26G[?25h[?25l
+eproducible_research/Modified_Reproducible_res[0Ke
+arch/Test[0m[0K
+$[0K[3G[?25h[?25l[3A[0;32mBiljana@DESKTOP-FHVUF74 [0;35m [0;33m~/Nextcloud/Modified_Reproducible_r[0Ke
+search/Modified_Reproducible_research/Test[0K
+[0m$[0K
+[0K[1A[3G[?25h[?25l$ m[0K
+[0K[1A[4G[?25h[?25l$ ma[0K
+[0K[1A[5G[?25h[?25l$ mak[0K
+[0K[1A[6G[?25h[?25l$ make[0K
+[0K[1A[7G[?25h[?25l
+[?25hmake: Nothing to be done for `all'.[0K[?25l
+[0K[?25h[?25l
+[0;32mBiljana@DESKTOP-FHVUF74 [0;35m [0;33m~/Nextcloud/Modified_Reproducible_r[0Ke
+search/Modified_Reproducible_research/Test[0m[0K
+$[0K[3G[?25h[?25l$ make[0K[?25h[?25l
+[0K[?25hRscript load.R[0K[?25l
+[0K[?25hRscript plot.R[0K[?25l
+[0K[?25hLoading required package: methods[0K[?25l
+[0K[?25hWarning message:[0K[?25l
+package 'colorspace' was built under R version 3.4.4[0K
+[0K[?25hWarning message:[0K[?25l
+package 'stringi' was built under R version 3.4.4[0K
+[0K[?25h-- ?[1mAttaching packages?[22m ---- tidyverse 1.2.1 --[0K[?25l
+?[32mv?[39m ?[34mggplot2?[39m 3.1.0     ?[32mv?[39m ?[34mpur[0Kr
+r  ?[39m 0.2.5[0K
+?[32mv?[39m ?[34mtibble ?[39m 1.4.2     ?[32mv?[39m ?[34mdpl[0Ky[61G[?25h[?25l
+r  ?[39m 0.7.8[0K
+?[32mv?[39m ?[34mtidyr  ?[39m 0.8.1     ?[32mv?[39m ?[34mstr[0Ki
+ngr?[39m 1.3.1[0K
+?[32mv?[39m ?[34mreadr  ?[39m 1.1.1     ?[32mv?[39m ?[34mfor[0Kc
+ats?[39m 0.2.0[0K
+[0K[?25h-- ?[1mConflicts?[22m ------- tidyverse_conflicts() --[0K[?25l
+?[31mx?[39m ?[34mdplyr?[39m::?[32mfilter()?[39m masks ?[34ms[0Kt
+ats?[39m::filter()[0K
+?[31mx?[39m ?[34mdplyr?[39m::?[32mlag()?[39m    masks ?[34ms[0Kt
+ats?[39m::lag()[0K
+Warning messages:[0K
+1: package 'tidyverse' was built under R version 3.4.4[0K
+2: package 'ggplot2' w[0K[20G[?25h[?25l2: package 'ggplot2' was built under R version 3.4.4[0K
+3: package 'tibble' was built under R version 3.4.4[0K
+4: package 'tidyr' was built under R version 3.4.4[0K
+5: package 'purrr' was built under R version 3.4.4[0K
+6: package 'dplyr' was built under R version 3.4.4[0K
+7: package 'stringr' was built under R version 3.4.4[0K
+[0K[?25hSaving 7 x 7 in image[0K[?25l
+[0K[?25h[?25l
+[0;32mBiljana@DESKTOP-FHVUF74 [0;35m [0;33m~/Nextcloud/Modified_Reproducible_r[0Ke
+search/Modified_Reproducible_research/Test[0m[0K
+$[0K[3G[?25h

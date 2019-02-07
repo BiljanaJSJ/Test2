@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1549403302158.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "46D9829D",
+    "lastKnownWriteTime" : 1549416989,
+    "last_content_update" : 1549416989691,
+    "path" : "C:/Users/Biljana/Nextcloud/Modified_Reproducible_research/Modified_Reproducible_research/Test/RootScript.R",
+    "project_path" : "RootScript.R",
+    "properties" : {
+        "cursorPosition" : "5,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

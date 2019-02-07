@@ -1,0 +1,49 @@
+[0m[0K      2 [main] id (13416) C:\cygwin64\bin\id.exe: *** fatal error - cygheap bas[0Ke[?25l
+ mismatch detected - 0x1802FF408/0x180304408.[0K
+This problem is probably due to using incompatible versions of the cygwin DLL.[0K
+Search for cygwin1.dll using the Windows Start->Find/Search facility[0K
+and delete all but the most recent version.  The most recent version *should*[0K
+reside in x:\cygwin\bin, where 'x' is the drive on which you have[0K
+installed the cygwin distribution.  Rebooting is also suggested if you[0K
+are unable to find another cygwin DLL.[0K
+      2 [main] getent (19348) C:\cygwin64\bin\getent.exe: *** fatal error - cyg[0Kh
+eap base mismatch detected - 0x1802FF408/0x180304408.[0K
+This problem is probably due to using incompatible versions of the cygwin DLL.[0K
+Search for cygwin1.dll using the Windows Start->Find/Search facility[0K
+and delete all but the most recent version.  The most recent version *should*[0K
+reside in x:\cygwin\bin, where 'x' is the drive on which you have[0K
+installed the cygwin distribution.  Rebooting is also suggested if you[0K
+are unable to find another cygwin DLL.[0K
+[0K[?25h[?25l[16A      2 [main] id (13416) C:\cygwin64\bin\id.e[0Kx
+e: *** fatal error - cygheap base mismatch det[0Ke
+cted - 0x1802FF408/0x180304408.[0K
+This problem is probably due to using incompat[0Ki
+ble versions of the cygwin DLL.[0K
+Search for cygwin1.dll using the Windows Start[0K-
+>Find/Search facility[0K
+and delete all but the most recent version.  T[0Kh
+e most recent version *should*[0K
+reside in x:\cygwin\bin, where 'x' is the driv[0Ke
+ on which you have[0K
+installed the cygwin distribution.  Rebooting [0Ki
+s also suggested if you[0K
+are unable to find another cygwin DLL.[0K
+      2 [main] getent (19348) C:\cygwin64\bin\[0Kg
+etent.exe: *** fatal error - cygheap base mism[0Ka
+tch detected - 0x1802FF408/0x180304408.[0K
+This problem is probably due to using incompat[0Ki
+ble versions of the cygwin DLL.[0K
+Search for cygwin1.dll using the Windows Start[0K-
+>Find/Search facility[0K
+and delete all but the most recent version.  T[0Kh
+e most recent version *should*[0K
+reside in x:\cygwin\bin, where 'x' is the driv[0Ke
+ on which you have[0K
+installed the cygwin distribution.  Rebooting [0Ki
+s also suggested if you[0K
+are unable to find another cygwin DLL.[0K
+[0K[?25h]0;:/c/Users/Biljana/Nextcloud/Modified_Reproducible_research/Modified_Reproducible_research/Test[?25l
+[0;32mBiljana@DESKTOP-FHVUF74 [0;35m [0;33m~/Nextcloud/Modified_[0KR
+eproducible_research/Modified_Reproducible_res[0Ke
+arch/Test[0m[0K
+$[0K[3G[?25h

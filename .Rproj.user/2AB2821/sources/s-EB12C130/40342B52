@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1549408009385.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "40342B52",
+    "lastKnownWriteTime" : 1549416990,
+    "last_content_update" : 1549416990089,
+    "path" : "C:/Users/Biljana/Nextcloud/Modified_Reproducible_research/Modified_Reproducible_research/Test/testRmd.Rmd",
+    "project_path" : "testRmd.Rmd",
+    "properties" : {
+        "cursorPosition" : "29,3",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

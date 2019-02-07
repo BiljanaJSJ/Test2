@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1549403320841.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "90533264",
+    "lastKnownWriteTime" : 1549061521,
+    "last_content_update" : 1549061521,
+    "path" : "C:/Users/Biljana/Nextcloud/Modified_Reproducible_research/Modified_Reproducible_research/Test/plot.R",
+    "project_path" : "plot.R",
+    "properties" : {
+        "cursorPosition" : "15,34",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

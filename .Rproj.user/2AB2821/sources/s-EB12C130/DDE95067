@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1549410517036.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "DDE95067",
+    "lastKnownWriteTime" : 1549064931,
+    "last_content_update" : 1549064931,
+    "path" : "C:/Users/Biljana/Nextcloud/2019-02_Ecoscope_reproducible/index.Rmd",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "3,16",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

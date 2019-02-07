@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1549403313187.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "1642C137",
+    "lastKnownWriteTime" : 1530139880,
+    "last_content_update" : 1530139880,
+    "path" : "C:/Users/Biljana/Nextcloud/Modified_Reproducible_research/Modified_Reproducible_research/Test/load.R",
+    "project_path" : "load.R",
+    "properties" : {
+        "cursorPosition" : "3,24",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

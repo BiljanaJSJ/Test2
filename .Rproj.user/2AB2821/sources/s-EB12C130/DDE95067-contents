@@ -1,0 +1,49 @@
+---
+title: "Reproducible research"
+output:
+  html_document:
+    df_print: paged
+date: "Feb 5-7, 2019"
+smart: no
+---
+
+This comprehensive introduction to R workshop series is ideal for
+beginners and assumes no prior experience with R or programming. It
+will run in three two-hour sessions, and you can register for the
+entire series at the
+[ECOSCOPE event page](http://ecoscope.ubc.ca/events/).
+
+# Schedule
+
+Location: Room 121 LSK, Leonard S. Klinck Building, 6356 Agricultural Rd, Vancouver, BC V6T 1Z2
+
+
+1. Tuesday, Feb 5: 1-4 pm
+2. Thursday, Feb 7: 1-4 pm
+
+# Topics covered
+
+In this series, we introduce computational reproducibility and its importance to modern research. We will teach the general principles for reproducible computer-based analyses, along with specific methods and tools for reproducibility with [RStudio](https://www.rstudio.com/). We will also introduce version control with [GitHub](https://github.com/), which is an essential tool in a team environment.
+
+You will learn how to:
+
+* Construct reproducible, automatable workflows in R
+* Create reproducible documents using Rmarkdown to include underlying code / computations with relevant graphical and statistical results in several different formats (reports, presentation slides, handouts, notes)
+* Use Git version control
+* Integrate version control with GitHub for both personal and group projects
+
+
+
+# Setup Instructions
+
+Please come to the workshop with your laptop set up with the required
+software and data files. Follow the [instructions](setup.html) and
+test the installed software that it works, as demonstrated in the
+notes.
+
+
+# Notes 
+
+[notes](reproducible_research_notes.html) 
+
+[dynamic_R_challenge.html](dynamic_R_challenge.html)
